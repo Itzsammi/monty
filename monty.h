@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -14,7 +15,7 @@
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO Alx-project
  */
 
 typedef struct stack_s
@@ -46,7 +47,7 @@ extern bus_t bus;
  * @opcode: the opcode
  * @f: function to handle the opcode
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO ALX-project
  */
 
 typedef struct instruction_s
